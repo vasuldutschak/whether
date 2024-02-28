@@ -1,2 +1,0 @@
-"use strict";(self.webpackChunkwhether=self.webpackChunkwhether||[]).push([[71],{71:(e,h,r)=>{r.r(h),r.d(h,{default:()=>n});var t=r(579);const n=function(e){return(0,t.jsx)("h1",{children:"Home Page"})}}}]);
-//# sourceMappingURL=71.dcab6ca5.chunk.js.map
