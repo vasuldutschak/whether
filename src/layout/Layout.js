@@ -4,6 +4,7 @@ import {Outlet} from "react-router-dom";
 import FullWidthContainer from "../components/containers/FullWidthContainer";
 import ContentContainer from "../components/containers/ContentContainer";
 import {Footer, Header, Main} from "../components/containers/Containers.styled";
+import Loader from "../components/loader/Loader";
 
 function Layout(props) {
     return (
@@ -14,7 +15,7 @@ function Layout(props) {
                 </ContentContainer>
             </Header>
             <Main>
-                <Suspense fallback={<h1>Loading......</h1>}>
+                <Suspense fallback={<Loader/>}>
                     <ContentContainer>
                         <Outlet/>
                     </ContentContainer>
